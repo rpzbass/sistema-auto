@@ -9,7 +9,9 @@ public class Cadastro {
 	private String cpfCnpj;
 	private String nome;
 	private Date dataNascimento;
+
 	
+	Endereco cad;
 	
 	public Cadastro() {
 		
@@ -23,6 +25,7 @@ public class Cadastro {
 		this.dataNascimento = dataNascimento;
 	
 	}
+
 
 	
 
